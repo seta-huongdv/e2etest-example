@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "codeceptjs run --reporter mocha-junit-reporter",
+    "start": "codeceptjs run",
     "test": "mocha"
   },
   "repository": {
