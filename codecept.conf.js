@@ -21,7 +21,7 @@ exports.config = {
   bootstrap: null,
   mocha: {
     "reporterOptions": {
-      "mochaFile": "output/XML/result.xml"
+      "reportDir": "output/HTML/"
     }
   },
   name: 'e2etest-example'
