@@ -5,11 +5,12 @@
   "main": "codecept.conf.js",
   "dependencies": {
     "codeceptjs": "^2.0.7",
+    "mocha-junit-reporter": "^1.18.0",
     "puppeteer": "^1.13.0"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "codeceptjs run",
+    "start": "codeceptjs run --reporter mocha-junit-reporter",
     "test": "mocha"
   },
   "repository": {

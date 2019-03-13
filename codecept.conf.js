@@ -19,6 +19,10 @@ exports.config = {
     I: './steps_file.js'
   },
   bootstrap: null,
-  mocha: {},
+  mocha: {
+    "reporterOptions": {
+      "mochaFile": "output/XML/result.xml"
+    }
+  },
   name: 'e2etest-example'
 }
