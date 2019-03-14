@@ -15,13 +15,17 @@ exports.config = {
       keepCookies: true
     }
   },
+ plugins: {
+    "allure": {
+    }
+} ,
   include: {
     I: './steps_file.js'
   },
   bootstrap: null,
   mocha: {
     "reporterOptions": {
-      "reportDir": "output/HTML/"
+      "reportDir": "output/HTML/index.html"
     }
   },
   name: 'e2etest-example'

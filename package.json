@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "codeceptjs run --reporter mochawesome",
+    "start": "codeceptjs run --plugins allure",
     "test": "mocha"
   },
   "repository": {
